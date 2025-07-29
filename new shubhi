@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shubhi Boutique</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" type="image/png" href="images/favicon.png" />
+</head>
+<body>
+
+  <header>
+    <h1>Shubhi Boutique</h1>
+    <p>Elegance Woven With Tradition</p>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="home">
+    <h2>Welcome to Shubhi Boutique</h2>
+    <p>Discover a world of timeless ethnic and modern styles crafted with passion and grace.</p>
+  </section>
+
+  <section id="gallery" class="gallery">
+    <h2>Our Collection</h2>
+    <img src="images/suit1.jpg" alt="Designer Suit">
+    <img src="images/lehenga1.jpg" alt="Bridal Lehenga">
+    <img src="images/gown1.jpg" alt="Fancy Gown">
+  </section>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>At Shubhi Boutique, we design clothes that bring out the best in tradition and beauty. Whether it's for festive occasions, weddings, or everyday style, our pieces are made to fit you perfectly and feel amazing.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: shubhiboutique@example.com</p>
+    <p>WhatsApp: <a href="https://wa.me/919999999999" style="color:#8b5e5e;">Chat with us</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Shubhi Boutique. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+header {
+  background-color: #b48c8c;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  background: #8b5e5e;
+  text-align: center;
+  padding: 10px 0;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+section {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.gallery img {
+  width: 250px;
+  margin: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+  background: #8b5e5e;
+  color: white;
+  text-align: center;
+  padding: 15px 10px;
+}
